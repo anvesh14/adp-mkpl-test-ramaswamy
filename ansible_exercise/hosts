@@ -1,0 +1,6 @@
+
+[jenkins_slave]
+192.168.197.9
+
+[SELS_jenkins_slave]
+192.168.197.12

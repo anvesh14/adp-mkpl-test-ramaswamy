@@ -1,0 +1,13 @@
+---
+
+- hosts: jenkins_slave
+  become: true
+
+  tasks:
+    - name: Installing the Nodejs and NPM 
+      yum:
+        name: 
+          - nodejs
+          - npm
+        state: latest
+
